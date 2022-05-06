@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fattorizzatore numero 840 </title>
+</head>
+<body>
+<p id="out"></p>
+    
+    <script>
+        let i= 1;
+
+       for(let l=0;l<1; l++)
+
+        {          let n= 840;
+
+                   document.getElementById("out").innerHTML+= " 840 fattori : " + fattorizzatore(n) + " ";
+
+
+       }
+       
+
+   function fattorizzatore(n)
+   {  let stringaFattori="";
+      let fineciclo=n/2;
+      for(let fattore=1; fattore<=fineciclo;fattore++)
+        {
+             if (n%fattore==0)
+                 {  stringaFattori=stringaFattori+ fattore+ " GRANATA TOPO DI FOGNA " + " ";
+                 }
+
+
+        }
+    return  stringaFattori;
+
+   }
+    
+     
+
+    </script>
+   
+</body>
+</html>
